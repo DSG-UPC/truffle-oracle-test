@@ -1,0 +1,101 @@
+{
+  "contractName": "OracleDispatch",
+  "abi": [
+    {
+      "inputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "constructor",
+      "signature": "constructor"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "name": "id",
+          "type": "bytes32"
+        },
+        {
+          "indexed": false,
+          "name": "recipient",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "name": "queryType",
+          "type": "string"
+        },
+        {
+          "indexed": false,
+          "name": "originator",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "name": "query",
+          "type": "string"
+        }
+      ],
+      "name": "Incoming",
+      "type": "event",
+      "signature": "0xe38ede876a57d425e6cb51f6f3539f9665473bae90ed3af1ab9b612d7b096358"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "_queryType",
+          "type": "string"
+        },
+        {
+          "name": "_originator",
+          "type": "address"
+        },
+        {
+          "name": "_query",
+          "type": "string"
+        }
+      ],
+      "name": "query",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function",
+      "signature": "0xcad58e8a"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "_owner",
+          "type": "address"
+        }
+      ],
+      "name": "setOwner",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function",
+      "signature": "0x13af4035"
+    },
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "kill",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function",
+      "signature": "0x41c0e1b5"
+    }
+  ],
+  "networks": {},
+  "schemaVersion": "2.0.1",
+  "updatedAt": "2018-11-15T14:39:15.652Z"
+}
