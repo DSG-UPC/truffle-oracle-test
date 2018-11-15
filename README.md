@@ -26,7 +26,5 @@ In the same directory create a ``db.json`` file with dummy monitor values. Examp
 ```
 
 ## Start the oracle server
-Start oracle server
-  ```
-  ~/MeshWifiDapp/ethereum$ node oracle.js
-  ```
+Start oracle server:
+  ``node oracle.js``
